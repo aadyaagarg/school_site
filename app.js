@@ -24,6 +24,9 @@ app.get('/header', (req, res) => {
 app.get('/footer', (req, res) => {
     res.render('footer'); // Renders about.ejs
 });
+app.get('/admission', (req, res) => {
+    res.render('admission'); // Renders about.ejs
+});
 
 app.listen(3000, () => {
     console.log('Server is running at http://localhost:3000');
