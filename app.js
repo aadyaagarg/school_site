@@ -13,7 +13,7 @@ app.get('/about', (req, res) => {
     res.render('about'); // Renders about.ejs
 });
 app.get('/contact', (req, res) => {
-    res.render('contact'); // Renders about.ejs
+    res.render('contact2'); // Renders about.ejs
 });
 app.get('/getstarted', (req, res) => {
     res.render('getstarted'); // Renders about.ejs
