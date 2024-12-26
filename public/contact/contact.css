@@ -4,6 +4,15 @@ body {
     margin: 0;
 }
 
+.content-section {
+    height: 250px;
+    text-align: center;
+    color: #17057e;
+    margin-bottom: 100px;
+    padding-top: 70px;
+    background-color: #f8f9fa;
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -12,20 +21,21 @@ body {
     background-image: url(contact.jpg) ;
     object-fit: cover;
 } */
- .Image{
+.Image {
     width: 100%;
     height: 100%;
     object-fit: cover;
- }
+}
 
 .right-section {
     background-color: #fff;
     /* border-left: 10px solid #17057e; Border color and width */
-    
+
 }
 
 .contact-us {
-    background-color: rgba(255, 255, 255, 0.9); /* Transparent background */
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Transparent background */
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgb(255, 255, 255);
@@ -55,7 +65,8 @@ body {
 
 .contact-us form .form-control {
     border: 1px solid #ccc;
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 8px;
+    /* Rounded corners */
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -66,14 +77,14 @@ body {
 }
 
 .contact-us form button {
-    background-color:#17057e;
+    background-color: #17057e;
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease, transform 0.3s ease;
-   
+
 }
 
 .contact-us form button:hover {
@@ -83,7 +94,9 @@ body {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-    .left-section, .right-section {
+
+    .left-section,
+    .right-section {
         border-radius: 0;
         border: none;
     }
@@ -96,6 +109,7 @@ body {
         margin-top: 20px;
     }
 }
+
 /* footer */
 /* .footer {
     background-color:black;
